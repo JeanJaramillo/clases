@@ -10,9 +10,6 @@
     
     <h1><img src="logo encabezado.JPG" alt="upweb" width="30cm">ELECTRO-HOGAR</h1>
 
-    <fieldset>
-                <p>Buscador <input type="text" name="buscador"><button>BUSCAR</button></p>
-               </fieldset>
      <hr> 
      <h3><img src="cdc.jpeg" alt="cdc" width="10cm">Carrito de Compras</h3>
 
@@ -27,19 +24,21 @@
     </tr>
     </table>
      </fieldset>
-     <hr>
-
+    <br>
      <dl>
      <dt>GARANTÍA</dt>
      <dd>Si este producto no cumple con tus expactativas tienes 10 días <br>
       desde su recepción para devolverlo en cualquiera de nuestras <br>
      tiendas o llamando al (04) 130 4306 opción 3</dd>
     </dl>
+
+    <hr>
+
      <Fieldset>
     <legend>Selección de color</legend>
      <table>
         <tr>
-            <td><button>GRIS</button>      |     <button>NEGRO</button></td>
+            <td><button>GRIS</button> <-> <button>NEGRO</button></td>
         </tr>
         </table>
     </Fieldset>
@@ -52,6 +51,21 @@
 adicional por solo S/ 67.00 </p>|  <button>AGREGAR</button>
 </fieldset>
 
+<form action="../../form-result.php" target="_blank">
+    <fieldset>
+      <legend>Información personal</legend>
+      <p>Nombre completo: <input type="text" name="nombrecompleto"></p>
+      <p>Dirección: <input type="text" name="direccion"></p>
+      <p>Teléfono: <input type="tel" name="telefono"></p>
+    </fieldset>
+    <fieldset>
+      <legend>Información laboral</legend>
+      <p>Compañía: <input type="text" name="compania"></p>
+      <p>Dirección: <input type="text" name="direcciontrabajo"></p>
+      <p>Teléfono: <input type="tel" name="telefonotrabajo"></p>
+    </fieldset>
+    <p><input type="submit" value="Enviar información"></p>
+  </form>
 
 
 </body>
