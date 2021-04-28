@@ -17,10 +17,20 @@
     }
   </style>
 </head>
-    
+    <header>
     <h1><img src="logo encabezado.JPG" alt="upweb" width="30cm">ELECTRO-HOGAR</h1>
-
+</header>
+    <nav>
+        <ul>
+        <li>Muebles</li>
+        <li>Herramientas</li>
+        <li>Maquinaria</li>
+        <li>Pinturas</li>
+        <li>Servicios de hogar o Contacto</li>
+        </ul>
+        </nav>
      <hr> 
+     <main>
      <h3><img src="cdc.jpeg" alt="cdc" width="10cm">Carrito de Compras</h3>
 
      <fieldset>
@@ -34,6 +44,9 @@
     </tr>
     </table>
      </fieldset>
+    </section>
+
+    <section>
     <dl>
      <dt>GARANTÍA</dt>
      <dd>Si este producto no cumple con tus expactativas tienes 10 días <br>
@@ -41,8 +54,9 @@
      tiendas o llamando al (04) 130 4306 opción 3</dd>
     </dl>
 
-    <hr>
 
+    <hr>
+   
      <Fieldset>
     <legend>Selección de color</legend>
      <table>
@@ -51,29 +65,21 @@
         </tr>
         </table>
     </Fieldset>
-   
-   
+
+   <section>
 <fieldset>
-<br>
-<br>
+    <BR>
 <dl>
     <dt>GARANTÍA EXTENDIDA</dt> 
 <dd>Protege tu producto desde 1 año <br> 
 adicional por solo S/ 67.00 | <button>AGREGAR</button></dd>
 </dl>
 </fieldset>
+</section>
 
-<form>
-    <fieldset>
-      <legend>INFORMACIÓN PARA ENTREGA</legend>
-      <p>Provincia: <input type="text" name="Provincia"></p>
-      <p>Distrito: <input type="text" name="Distrito"></p>
-      <p>Dirección: <input type="text" name="direccion"></p>
-      <p>Referencia: <input type="text" name="Referencia"></p>
-    </fieldset>
-       </form>
-
+    <section>  
 <br>
+<article>
 <fieldset>
     <legend>Resumen de Compra</legend>
     <table>
@@ -104,11 +110,26 @@ adicional por solo S/ 67.00 | <button>AGREGAR</button></dd>
         </tr>
         </table>
        </fieldset>
-       <br>
-       <br>
-       <br>
-
-       <button><H4>TERMINAR COMPRA</H4></button>
-
+      
+    </article>
+    <br>
+    <br>
+    <article>
+        <form>
+            <fieldset>
+              <legend>INFORMACIÓN PARA ENTREGA</legend>
+              <p>Provincia: <input type="text" name="Provincia" id="provincia" placeholder="Ingrese Provincia"></p>
+              <p>Distrito: <input type="text" name="Distrito" id="distrito" placeholder="Ingrese Distrito"></p>
+              <p>Dirección: <input type="text" name="direccion" id="direccion" placeholder="Ingrese Dirección"></p>
+              <p>Referencia: <input type="text" name="Referencia" id="referencia" placeholder="Ingrese Referencia"></p>
+            </fieldset>
+            <br>
+            <input type="submit" value="TERMINAR COMPRA">
+               </form>
+            </article>
+    </section>
+    </main>
+       
+    
     </body>
 </html>
