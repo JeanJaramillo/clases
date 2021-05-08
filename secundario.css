@@ -1,0 +1,6 @@
+#mensaje{
+    visibility: hidden;
+}
+.puntero:hover{
+    cursor: pointer;
+}
