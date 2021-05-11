@@ -5,3 +5,13 @@ h2{
 .mensaje{
  background-color: rgb(83, 62, 107);
 }
+.conclusion{
+    background-color: lightblue;
+
+}
+body{
+    background-image: url(./ARTICLE.JPG);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
