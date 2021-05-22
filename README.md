@@ -1,2 +1,2 @@
-# https://jeanjaramillo.github.io/clases/
+# jeanjaramillo.github.io
 Proyectos Certus publicados en GitHub Pages
