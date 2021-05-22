@@ -6,13 +6,14 @@ h2{
  background-color: rgb(83, 62, 107);
 }
 .conclusion{
-    background-color: lightblue;
+    background-color: #ff000f;
 
 }
 body{
-    background-image: url(./);
+    background-image: url(./DT.JPG);
     background-repeat: no-repeat;
     background-position: right top;
-    background-attachment: scroll;
+    margin: auto;
+    background-attachment: ;
     background-size: contain;
 }
